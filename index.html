@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Dilli-Portfolio</title>
+    <link href="assets/images/svg/logo1.svg" rel="icon" type="image/x-icon" />
+    <link href="assets/css/swap.css" rel="stylesheet" />
+    <link href="assets/css/fancybox.min.css" rel="stylesheet" />
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/css/slick.css" rel="stylesheet" />
+    <link href="assets/css/magnific-popup.min.css" rel="stylesheet" />
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <link href="assets/css/media_query.css" rel="stylesheet" />
+  </head>
+  <body class="dark-mode">
+    <!-- ====================================== Preloader ===================================== -->
+    <div class="preloader">
+      <svg preserveaspectratio="none" viewbox="0 0 1000 1000">
+        <path d="M0,1005S175,995,500,995s500,5,500,5V0H0Z" id="loade-svg"></path>
+      </svg>
+      <div class="loader-main">
+        <div class="loading">
+          <span data-text="L">L</span>
+          <span data-text="O">O</span>
+          <span data-text="A">A</span>
+          <span data-text="D">D</span>
+          <span data-text="I">I</span>
+          <span data-text="N">N</span>
+          <span data-text="G">G</span>
+        </div>
+      </div>
+    </div>
+    <!-- ====================================== Background Animation ===================================== -->
+    <canvas height="1080" id="canvas" width="1950"></canvas>
+    <canvas height="1080" id="canvasbg" width="1950"></canvas>
+    <!-- ====================================== Background Animation End ===================================== -->
+    <div class="site-containe">
+      <!-- ====================================== Header ===================================== -->
+      <div class="container" id="mainHeader">
+        <header>
+          <a class="main-header-logo" href="index.html">
+            <img alt="logo" class="logo" src="assets/images/home-images/logo-01 1.png" />
+          </a>
+          <div class="aryaBtn-toggle-main mt-0">
+            <ul class="side-menu-ul" id="menu-list-header">
+              <li class="menu-btn">
+                <a href="index.html">HOME</a>
+              </li>
+              <li class="menu-btn">
+                <a href="#about">ABOUT</a>
+              </li>
+              <li class="menu-btn">
+                <a href="#services">SERVICES</a>
+              </li>
+              <li class="menu-btn">
+                <a href="#portfolio">PORTFOLIO</a>
+              </li>
+              <li class="menu-btn">
+                <a href="#resume">RESUME</a>
+              </li>
+              <li class="menu-btn">
+                <a href="#top-skills">Top Skills</a>
+              </li>
+              <li class="menu-btn"> 
+                <a href="#design-skills">Design Skills</a>
+              </li>
+            </ul>
+            <button class="menu-toggle-button" id="menu-toggle">
+              <span class="hamburger" id="hamburger-1">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+              </span>
+            </button>
+          </div>
+        </header>
+      </div>
+      <!-- ====================================== Side Menu ===================================== -->
+      <div class="container">
+        <div class="row main-row">
+          <div class="col-xxl-3 col-xl-3 col-lg-4">
+            <div class="side-menu-main">
+              <a class="side-menu-two-logo" href="index.html">
+                <img alt="logo" class="logo" src="assets/images/home-images/logo-01 1.png" />
+              </a>
+              <div class="portfolio-girl-menu-main">
+                <img alt="portfolio-girl-menu" src="assets/images/home-images/left-1.png" />
+              </div>
+              <div class="list-menu">
+                <p class="side-menu-arya">Dilli Babu V</p>
+                <p class="web-arya">UIUX &amp; GRAPHIC DESIGNER</p>
+                <div class="media-main">
+                  <a class="media-icons" href="https://www.facebook.com">
+                    <img alt="facebook" src="assets/images/svg/facebook.svg" />
+                  </a>
+                  <a class="media-icons" href="https://www.instagram.com">
+                    <img alt="insta" src="assets/images/svg/insta.svg" />
+                  </a>
+                  <a class="media-icons" href="https://x.com">
+                    <img alt="twitter" src="assets/images/svg/twitter.svg" />
+                  </a>
+                  <a class="media-icons" href="https://www.behance.net">
+                    <img alt="behance" src="assets/images/svg/behance.svg" />
+                  </a>
+                  <a class="media-icons" href="https://dribbble.com">
+                    <img alt="dribbale" src="assets/images/svg/dribbale.svg" />
+                  </a>
+                  <a class="media-icons" href="https://www.linkedin.com">
+                    <img alt="linkdin" src="assets/images/svg/linkdin.svg" />
+                  </a>
+                </div>
+              </div>
+              <div class="list-menu menu-list-main d-xl-none">
+                <ul class="side-menu-ul">
+                  <li>
+                    <a href="index.html">HOME <img alt="home" src="assets/images/svg/home.svg" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="index.html">ABOUT ME <img alt="about" src="assets/images/svg/about.svg" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="index.html">SERVICES <img alt="services" src="assets/images/svg/services.svg" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="index.html">PORTFOLIO <img alt="portfolio" src="assets/images/svg/portfolio.svg" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="index.html">TESTIMONIAL <img alt="testimonial" src="assets/images/svg/testimonial.svg" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="index.html">RESUME <img alt="resume" src="assets/images/svg/resume.svg" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="index.html">PRICING PLAN <img alt="pricingPlan" src="assets/images/svg/pricingPlan.svg" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="index.html">BLOG <img alt="blog" src="assets/images/svg/blog.svg" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="index.html">CONTACT <img alt="contact" src="assets/images/svg/contact.svg" />
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="list-menu">
+                <p class="phone-text">PHONE:</p>
+                <a class="phone-num" href="../../../../../../../../+(91) 9786 274 976">
+                  <p>+(91) 9786 274 976</p>
+                </a>
+                <p class="phone-text">EMAIL:</p>
+                <a class="phone-num" href="../../../../../../../../dillib440@gmail.com">
+                  <p>dillib440@gmail.com</p>
+                </a>
+                <p class="phone-text">LOCATION:</p>
+                <p class="phone-num">Tamil Nadu, Chennai</p>
+                <div class="Hire-Me-side-menu">
+                  <a class="aryaBtn" href="assets/pdf/olivia_resume.pdf"> Hire Me! <img alt="download-svg" class="hireMe-svg-side" src="assets/images/svg/hireMe-svg.svg" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xxl-9 col-xl-9 col-lg-12" data-bs-spy="scroll">
+            <!-- ====================================== Section-One ===================================== -->
+            <section class="section-one active_menus" id="home">
+              <div class="row section-one-row">
+                <div class="col-xxl-6 col-xl-6 col-lg-6">
+                  <p class="hi-there fade_down">Hi there! <span>👋</span>
+                  </p>
+                  <h1 class="creative fade_down">Creative UIUX &amp; Designer.</h1>
+                  <h2 class="visionary fade_down">I am a visionary creative designer, known for my ability to turn concepts into captivating visual narratives. My deep passion for the world of design allows me to craft compelling stories through my artistic ingenuity.</h2>
+                  <div class="download-btn">
+                    <a class="aryaBtn" href="assets/pdf/olivia_resume.pdf"> Download CV <img alt="download-svg" src="assets/images/svg/download-svg.svg" />
+                    </a>
+                  </div>
+                </div>
+                <div class="col-xxl-6 col-xl-6 col-lg-6 portfolio-girl-img-col">
+                  <div class="position-relative zoom_in">
+                    <img alt="portfolio-girl" class="portfolio-girl-img" src="assets/images/home-images/right.png" />
+                    <div class="girl-name">
+                      <p class="ityped">I’M DILLI BABU V_</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!-- ====================================== Section-Two ===================================== -->
+            <section class="section-two overflow-hidden active_menus" id="about">
+              <div class="row">
+                <div class="col-xxl-5 col-xl-5 col-lg-5 about-col">
+                  <h2 class="arya-stack-about fade_down">
+                    <span>I'm</span> DILLI BABU_
+                  </h2>
+                  <!-- <p class="WebExperts fade_down">Your Web Experts</p> -->
+                  <div class="yer-exp-box-main">
+                    <div class="yer-exp-box counter fade_down">
+                      <p class="degit count" data-count="03">0</p>
+                      <div>
+                        <p>+</p>
+                        <p>Years Of Exp.</p>
+                      </div>
+                    </div>
+                    <div class="yer-exp-box counter fade_down">
+                      <p class="degit count" data-count="26">0</p>
+                      <div>
+                        <p>k+</p>
+                        <p>Work Hours</p>
+                      </div>
+                    </div>
+                    <div class="yer-exp-box counter fade_down">
+                      <p class="degit count" data-count="148">0</p>
+                      <div>
+                        <p>+</p>
+                        <p>Projects Done</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xxl-7 col-xl-7 col-lg-7 self-taught-col">
+                  <h2 class="self-taught">Hello! <span>I’m Dilli Babu</span> a self-taught &amp; award-winning <span>Web Designer &amp; UI Developer</span> with over <span>Seven years of work experience.</span> started in my children’s room and got pro at renowned <span>Ren Tech</span> Agencies. </h2>
+                  <h2 class="visionary">I transform ideas into impactful digital experiences, delivering innovative solutions that elevate brands and captivate audiences around the world. </h2>
+                  <div class="about-deatils-head fade_down">
+                    <div class="about-detail-main">
+                      <p class="about-detail">Name</p>
+                      <p class="about-detail-info">Dilli Babu V</p>
+                    </div>
+                    <div class="about-detail-main">
+                      <p class="about-detail">Nationality</p>
+                      <p class="about-detail-info">Indian</p>
+                    </div>
+                    <div class="about-detail-main">
+                      <p class="about-detail">Phone</p>
+                      <p class="about-detail-info">+(91) 9786 274 976</p>
+                    </div>
+                    <div class="about-detail-main">
+                      <p class="about-detail">Email</p>
+                      <p class="about-detail-info">dillib440@gmail.com</p>
+                    </div>
+                    <div class="about-detail-main">
+                      <p class="about-detail">Experience</p>
+                      <p class="about-detail-info">3+ years</p>
+                    </div>
+                    <div class="about-detail-main">
+                      <p class="about-detail">Language</p>
+                      <p class="about-detail-info">English, Tamil, Telugu</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!-- ====================================== Section-Three ===================================== -->
+            <section class="section-three active_menus" id="services">
+              <h3 class="creative brand fade_down">Helping Brands <span>achieve digital mastery of</span> Creative Innovation <span>and</span> Strategic Planning. </h3>
+              <h3 class="visionary fade_down">Transforming ideas into digital realities by blending strategic insights with innovative design, helping brands thrive in a rapidly evolving digital landscape.</h3>
+              <div class="services-box fade_down" id="services-box">
+                <div>
+                  <img alt="web" class="services-icon" src="assets/images/svg/web.svg" />
+                  <p class="web-dev-text">Web Design &amp; Development</p>
+                </div>
+                <p class="visionary">Pellentesque consequat ornare arcu magna mattis. Morbi non dictum egestas pretium leo enim. Volutpat nulla purus at libero. Vel pharetra donec urna scelerisque vel.</p>
+              </div>
+              <div class="services-box fade_down">
+                <div>
+                  <img alt="UI-design" class="services-icon" src="assets/images/svg/UI-design.svg" />
+                  <p class="web-dev-text">UI Design &amp; Experience</p>
+                </div>
+                <p class="visionary">Facilisis auctor adipiscing magna mollis cras aliquet morbi. Quisque enim tempor eget integer nam at egestas eu. Maecenas nec varius pharetra pulvinar elit faucibus scelerisque ut.</p>
+              </div>
+              <div class="services-box fade_down">
+                <div>
+                  <img alt="web" class="services-icon" src="assets/images/svg/digital.svg" />
+                  <p class="web-dev-text">Web &amp; Social Digital Solution</p>
+                </div>
+                <p class="visionary">Eleifend odio accumsan lectus nec neque purus et pellentesque. Amet quam habitasse pulvinar rutrum leo. Erat et venenatis quam odio turpis viverra tristique.</p>
+              </div>
+              <div class="services-box fade_down">
+                <div>
+                  <img alt="branding" class="services-icon" src="assets/images/svg/branding.svg" />
+                  <p class="web-dev-text">Branding &amp; Strategy</p>
+                </div>
+                <p class="visionary">In vitae accumsan tincidunt venenatis. Tempus enim elementum id tristique. Mi sapien ullamcorper arcu sagittis ante pharetra etiam aliquet sollicitudin nulla.</p>
+              </div>
+              <div class="services-box mb-0 fade_down">
+                <div>
+                  <img alt="video" class="services-icon" src="assets/images/svg/video.svg" />
+                  <p class="web-dev-text">Video &amp; Photography</p>
+                </div>
+                <p class="visionary">Mauris orci consequat at dolor in. Fringilla in at magna netus eleifend sit faucibus ultricies est. Euismod non dui potenti interdum neque praesent posuere.</p>
+              </div>
+            </section>
+            <!-- ====================================== Section-Four ===================================== -->
+            <section class="section-four active_menus" id="portfolio">
+              <h2 class="creative fade_down">Featured Projects</h2>
+              <h2 class="visionary fade_down pb-5">My step-by-step guide ensures a smooth project journey, from the initial consultation to the final delivery. I take care of every detail, allowing you to focus on what you do best.</h2>
+              <!-- <div class="tab-btn-main fade_down">
+                <a class="aryaBtn tab-btn tab-active" data-tab="one" href="../../../../../../../../void(0);">Show All</a>
+                <a class="aryaBtn tab-btn" data-tab="two" href="../../../../../../../../void(0);">Content</a>
+                <a class="aryaBtn tab-btn" data-tab="three" href="../../../../../../../../void(0);">Gallery</a>
+                <a class="aryaBtn tab-btn" data-tab="four" href="../../../../../../../../void(0);">YT Video</a>
+                <a class="aryaBtn tab-btn" data-tab="five" href="../../../../../../../../void(0);">Vimeo Video</a>
+                <div class="clear"></div>
+              </div> -->
+              <div class="tabContainer">
+                <div class="Tabcondent tab-active" id="one">
+                  <div class="gallery">
+                    <div class="gallery-item">
+                      <div class="gallery-item-sub" data-bs-target="#exampleModal" data-bs-toggle="modal">
+                        <img alt="project-img1" src="assets/images/home-images/project-1.jpg" />
+                      </div>
+                      <div class="gallery-info">
+                        <h3>Space In Lost - Jupiter J2</h3>
+                        <p>Content</p>
+                      </div>
+                    </div>
+                    <div class="gallery-item">
+                      <div class="gallery-item-sub" data-bs-target="#galleryModal" data-bs-toggle="modal">
+                        <img alt="project-img2.jpg" src="assets/images/home-images/project-2.jpg" />
+                      </div>
+                      <div class="gallery-info">
+                        <h3>Astronaut Catch Earth</h3>
+                        <p>Gallery</p>
+                      </div>
+                    </div>
+                    <div class="gallery-item gallery-item3">
+                      <div class="gallery-item-sub youtube">
+                        <img alt="project-img3.jpg" src="assets/images/home-images/project-3.jpg" />
+                      </div>
+                      <div class="gallery-info">
+                        <h3>Connect With Future Place</h3>
+                        <p>YT Video</p>
+                      </div>
+                    </div>
+                    <div class="gallery-item">
+                      <div class="gallery-item-sub vimeo">
+                        <img alt="project-img4.jpg" src="assets/images/home-images/project-4.jpg" />
+                      </div>
+                      <div class="gallery-info">
+                        <h3>Mind Process Chips</h3>
+                        <p>Vimeo Video</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Content Modal -->
+                <div aria-hidden="true" class="modal fade" id="exampleModal" tabindex="-1">
+                  <div class="modal-dialog modal-dialog-scrollable">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button aria-label="Close" class="btn-close" data-bs-dismiss="modal" type="button"></button>
+                      </div>
+                      <div class="modal-body">
+                        <img alt="content-img" class="content-img" src="assets/images/home-images/content-img.jpg" />
+                        <p class="spce-in-text">Space In Lost - Jupiter J2</p>
+                        <p class="spce-in-Content">Content</p>
+                        <div class="corporate_main">
+                          <div class="cuberto_main">
+                            <p class="created_by">Created By :</p>
+                            <p class="cuberto">Cuberto</p>
+                          </div>
+                          <div class="cuberto_main">
+                            <p class="created_by">Date :</p>
+                            <p class="cuberto">20/12/2024</p>
+                          </div>
+                          <div class="cuberto_main">
+                            <p class="created_by">Client :</p>
+                            <p class="cuberto">Rayan Patrick</p>
+                          </div>
+                          <div class="cuberto_main">
+                            <p class="created_by">Categories :</p>
+                            <p class="cuberto">Content</p>
+                          </div>
+                        </div>
+                        <p class="ipsum mb-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, enim corporis omnis doloremque soluta inventore dolorum conseqr quo obcaecati rerum sit non. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, enim corporis omnis doloremque soluta inventore dolorum consequuntur quo obcaecati rerum sit non. </p>
+                        <p class="ipsum">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, enim corporis omnis doloremque soluta inventore dolorum consetur quo obcaecati rerum sit non. </p>
+                        <div class="plumbing-grid">
+                          <img alt="single-blog-img3" src="assets/images/home-images/project-img1.jpg" />
+                          <img alt="single-blog-img4" src="assets/images/home-images/project-img4.jpg" />
+                        </div>
+                        <p class="ipsum">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, enim corporis omnis doloremque soluta inventore dolorum consetur quo obcaecati rerum sit non. </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Gallery Modal -->
+                <div aria-hidden="true" class="modal fade" id="galleryModal" tabindex="-1">
+                  <div class="modal-dialog modal-dialog-scrollable">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button aria-label="Close" class="btn-close" data-bs-dismiss="modal" type="button"></button>
+                      </div>
+                      <div class="modal-body">
+                        <p class="spce-in-text text-gallery">Gallery</p>
+                        <div class="gallery-main-card">
+                          <a data-caption="Caption Images 1" data-fancybox="gallery" href="assets/images/gallery/gallery-img1.jpg">
+                            <img alt="gallery-img1" src="assets/images/gallery/gallery-img1.jpg" />
+                          </a>
+                          <a data-caption="Caption Images 2" data-fancybox="gallery" href="assets/images/gallery/gallery-img2.jpg">
+                            <img alt="gallery-img2" src="assets/images/gallery/gallery-img2.jpg" />
+                          </a>
+                          <a data-caption="Caption Images 3" data-fancybox="gallery" href="assets/images/gallery/gallery-img3.jpg">
+                            <img alt="gallery-img3" src="assets/images/gallery/gallery-img3.jpg" />
+                          </a>
+                          <a data-caption="Caption Images 4" data-fancybox="gallery" href="assets/images/gallery/gallery-img4.jpg">
+                            <img alt="gallery-img4" src="assets/images/gallery/gallery-img4.jpg" />
+                          </a>
+                          <a data-caption="Caption Images 5" data-fancybox="gallery" href="assets/images/gallery/gallery-img5.jpg">
+                            <img alt="gallery-img5" src="assets/images/gallery/gallery-img5.jpg" />
+                          </a>
+                          <a data-caption="Caption Images 6" data-fancybox="gallery" href="assets/images/gallery/gallery-img6.jpg">
+                            <img alt="gallery-img6" src="assets/images/gallery/gallery-img6.jpg" />
+                          </a>
+                          <a data-caption="Caption Images 7" data-fancybox="gallery" href="assets/images/gallery/gallery-img7.jpg">
+                            <img alt="gallery-img5" src="assets/images/gallery/gallery-img7.jpg" />
+                          </a>
+                          <a data-caption="Caption Images 8" data-fancybox="gallery" href="assets/images/gallery/gallery-img8.jpg">
+                            <img alt="gallery-img8" src="assets/images/gallery/gallery-img8.jpg" />
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!-- ====================================== Section-Five ===================================== -->
+           
+            <!-- ====================================== Section-Six ===================================== -->
+            <section class="section-six active_menus" id="resume">
+              <div class="row resume-sec-row">
+                <div class="col-xxl-6 col-lg-6">
+                  <h2 class="creative brand fade_up">Education</h2>
+                  <div class="education fade_up">
+                    <div class="side_circle_ring">
+                      <div class="small_yellow_border">
+                        <div class="small_yellow_circle"></div>
+                      </div>
+                    </div>
+                    <div class="small_yellow_border_main">
+                      <p class="bachelor">Master's Degree</p>
+                      <p class="cursus university">University of Madras / 2023 - 2025</p>
+                      <p class="cursus">I have successfully completed my Postgraduate degree with 70%, reflecting strong academic commitment and performance. </p>
+                    </div>
+                  </div>
+                  <div class="education position-relative fade_up">
+                    <div class="side_circle_ring">
+                      <div class="small_yellow_border">
+                        <div class="small_yellow_circle"></div>
+                      </div>
+                    </div>
+                    <div class="small_yellow_border_main">
+                      <p class="bachelor">Bachelor in Science</p>
+                      <p class="cursus university">University of Madras / 2019 - 2022</p>
+                      <p class="cursus">I have successfully completed my undergraduate degree with 75% marks, demonstrating strong academic dedication and consistency. </p>
+                    </div>
+                  </div>
+                  <div class="education position-relative fade_up">
+                    <div class="side_circle_ring">
+                      <div class="small_yellow_border">
+                        <div class="small_yellow_circle"></div>
+                      </div>
+                    </div>
+                    <div class="small_yellow_border_main">
+                      <p class="bachelor">HSC</p>
+                      <p class="cursus university">State Board / 2018 - 2019</p>
+                      <p class="cursus">I completed my Higher Secondary Schooling with 69%, building a solid foundation for my academic journey. </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xxl-6 col-lg-6">
+                  <h2 class="creative brand fade_up">Experience.</h2>
+                  <div class="education fade_up">
+                    <div class="side_circle_ring">
+                      <div class="small_yellow_border">
+                        <div class="small_yellow_circle"></div>
+                      </div>
+                    </div>
+                    <div class="small_yellow_border_main">
+                      <p class="bachelor">Zukun LLP</p>
+                      <p class="cursus university">Dec, 2022 / Aug, 2025</p>
+                      <p class="cursus mb-2"> <span style="font-weight:900; color:white;">Zeneazy</span> is a Study & Work Abroad platform that simplifies university, job, passport, and visa applications through a user-friendly interface. It also includes an integrated coaching and scheduling system for seamless guidance and support. </p>
+                      <p class="cursus"><span style="font-weight:900; color:white;">Zukun</span> is an IT training institute platform designed to provide industry-focused courses and skill development programs for students and professionals. The platform offers an intuitive learning experience with course details, training schedules, and career-oriented guidance.</p>
+                    </div>
+                  </div>
+                  <div class="education position-relative fade_up">
+                    <div class="side_circle_ring">
+                      <div class="small_yellow_border">
+                        <div class="small_yellow_circle"></div>
+                      </div>
+                    </div>
+                    <div class="small_yellow_border_main">
+                      <p class="bachelor">SV Medcity</p>
+                      <p class="cursus university">Sep, 2025 - Present</p>
+                      <p class="cursus"><span style="font-weight:900; color:white;">SV Medcity</span> - Designed a user-friendly hospital website/app for easy navigation. Focused on simple appointment booking and patient information access. Improved UI layout for doctors, students, and patients. Ensured accessibility with clear fonts, colors, and icons. Enhanced overall user experience through clean and responsive design. </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="coding-skill-section" id="top-skills">
+                <h2 class="creative brand pb-0 fade_down">Top <span>Skills</span>
+                </h2>
+                <div id="progress">
+                  <div class="progress-item fade_down" data-skill="Figma" data-value="98"></div>
+                  <div class="progress-item fade_down" data-skill="Photoshop" data-value="85"></div>
+                  <div class="progress-item fade_down" data-skill="Illustrator" data-value="95"></div>
+                  <div class="progress-item fade_down" data-skill="Balsamiq" data-value="97"></div>
+                  <div class="progress-item fade_down" data-skill="Miro" data-value="85"></div>
+                </div>
+              </div>
+              <div class="coding-skill-section" id="design-skills">
+                <h2 class="creative brand pb-0 fade_down">Design <span>Skills</span>
+                </h2>
+                <div class="design-skill-sub-section">
+                  <div class="design-skills-img-main flip_up show">
+                    <!-- <img alt="figma-img" src="assets/images/home-images/figma-img.png" /> -->
+                    <div class="skill-counter-main">
+                      <p>WIREFRAME</p>
+                      <!-- <p>HTML, CSS</p> -->
+                    </div>
+                  </div>
+                  <div class="design-skills-img-main photoshop flip_up show">
+                    <!-- <img alt="photoshop-img" src="assets/images/home-images/photoshop-img.png" /> -->
+                    <div class="skill-counter-main photoshop-text">
+                      <p>PROTOTYPE</p>
+                      <!-- <p>PHOTOSHOP</p> -->
+                    </div>
+                  </div>
+                  <div class="design-skills-img-main adobe-xd flip_up show">
+                    <!-- <img alt="adobe-xd-img" src="assets/images/home-images/adobe-xd-img.png" /> -->
+                    <div class="skill-counter-main adobe-xd-text">
+                      <p>VISUAL DESIGN</p>
+                      <!-- <p>ADOBE XD</p> -->
+                    </div>
+                  </div>
+                  <div class="design-skills-img-main sketch flip_up show">
+                    <!-- <img alt="sktech-img" src="assets/images/home-images/sktech-img.png" /> -->
+                    <div class="skill-counter-main sketch-text">
+                      <p>TYPOGRAPHY</p>
+                      <!-- <p>SKETCH</p> -->
+                    </div>
+                  </div>
+                  <div class="design-skills-img-main flip_up show">
+                    <!-- <img alt="sktech-img" src="assets/images/home-images/sktech-img.png" /> -->
+                    <div class="skill-counter-main">
+                      <p>COLOR THEORY</p>
+                      <!-- <p>SKETCH</p> -->
+                    </div>
+                  </div>
+                  <div class="design-skills-img-main  photoshop flip_up show">
+                    <!-- <img alt="sktech-img" src="assets/images/home-images/sktech-img.png" /> -->
+                    <div class="skill-counter-main photoshop-text">
+                      <p>RESPONSIVE</p>
+                      <!-- <p>SKETCH</p> -->
+                    </div>
+                  </div>
+                  <div class="design-skills-img-main adobe-xd flip_up show">
+                    <!-- <img alt="sktech-img" src="assets/images/home-images/sktech-img.png" /> -->
+                    <div class="skill-counter-main adobe-xd-text">
+                      <p>STYLE GUIDE</p>
+                      <!-- <p>SKETCH</p> -->
+                    </div>
+                  </div>
+                  <div class="design-skills-img-main sketch flip_up show">
+                    <!-- <img alt="sktech-img" src="assets/images/home-images/sktech-img.png" /> -->
+                    <div class="skill-counter-main sketch-text">
+                      <p>USER RESEARCH</p>
+                      <!-- <p>SKETCH</p> -->
+                    </div>
+                  </div>
+                  <div class="design-skills-img-main flip_up show">
+                    <!-- <img alt="sktech-img" src="assets/images/home-images/sktech-img.png" /> -->
+                    <div class="skill-counter-main sketch-text">
+                      <p>USER PERSONA</p>
+                      <!-- <p>SKETCH</p> -->
+                    </div>
+                  </div>
+                  <div class="design-skills-img-main photoshop flip_up show">
+                    <!-- <img alt="sktech-img" src="assets/images/home-images/sktech-img.png" /> -->
+                    <div class="skill-counter-main photoshop-text">
+                      <p>INFORMATION ARCHITECTURE</p>
+                      <!-- <p>SKETCH</p> -->
+                    </div>
+                  </div>
+                  <div class="design-skills-img-main adobe-xd flip_up show">
+                    <!-- <img alt="sktech-img" src="assets/images/home-images/sktech-img.png" /> -->
+                    <div class="skill-counter-main adobe-xd-text">
+                      <p>USABILITY TESTING</p>
+                      <!-- <p>SKETCH</p> -->
+                    </div>
+                  </div>
+                  <div class="design-skills-img-main sketch flip_up show">
+                    <!-- <img alt="sktech-img" src="assets/images/home-images/sktech-img.png" /> -->
+                    <div class="skill-counter-main sketch-text">
+                      <p>AB TESTING</p>
+                      <!-- <p>SKETCH</p> -->
+                    </div>
+                  </div>
+                  <div class="design-skills-img-main flip_up show">
+                    <!-- <img alt="figma-img" src="assets/images/home-images/figma-img.png" /> -->
+                    <div class="skill-counter-main">
+                      <p>HEURISTIC EVALUATION</p>
+                      <!-- <p>HTML, CSS</p> -->
+                    </div>
+                  </div>
+                  <div class="design-skills-img-main photoshop flip_up show">
+                    <!-- <img alt="photoshop-img" src="assets/images/home-images/photoshop-img.png" /> -->
+                    <div class="skill-counter-main photoshop-text">
+                      <p>TASK FLOW</p>
+                      <!-- <p>PHOTOSHOP</p> -->
+                    </div>
+                  </div>
+                  <div class="design-skills-img-main adobe-xd flip_up show">
+                    <!-- <img alt="adobe-xd-img" src="assets/images/home-images/adobe-xd-img.png" /> -->
+                    <div class="skill-counter-main adobe-xd-text">
+                      <p>USER FLOW</p>
+                      <!-- <p>ADOBE XD</p> -->
+                    </div>
+                  </div>
+                  <div class="design-skills-img-main sketch flip_up show">
+                    <!-- <img alt="sktech-img" src="assets/images/home-images/sktech-img.png" /> -->
+                    <div class="skill-counter-main sketch-text">
+                      <p>CARD SORTING</p>
+                      <!-- <p>SKETCH</p> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+             
+            </section>
+            <!-- ====================================== Section Seven ===================================== -->
+            
+            <!-- ====================================== Footer ===================================== -->
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ====================================== Bottom To Top Button ===================================== -->
+    <button class="bottom-top-button">
+      <img alt="arrow-up" src="assets/images/svg/arrow-up.svg" />
+    </button>
+    <!-- ====================================== Bottom To Top Button End ===================================== -->
+    <script src="assets/javascript/jquery.min.js"></script>
+    <script src="assets/javascript/gsap.js"></script>
+    <script src="assets/javascript/bootstrap.min.js"></script>
+    <script src="assets/javascript/magnific-popup.min.js"></script>
+    <script src="assets/javascript/fancybox.min.js"></script>
+    <script src="assets/javascript/typing.js"></script>
+    <script src="assets/javascript/smooth-scroll.js"></script>
+    <script src="assets/javascript/slick.min.js"></script>
+    <script src="assets/javascript/bg-animation/circle.js"></script>
+    <script src="assets/javascript/script.js"></script>
+  </body>
+</html>
