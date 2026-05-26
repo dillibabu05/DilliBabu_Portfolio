@@ -432,7 +432,8 @@ body.dark-mode .hireMe-svg-side {
 .media-main {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 20px;
 }
 .media-icons {
     width: 36px;
