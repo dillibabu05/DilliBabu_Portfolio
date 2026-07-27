@@ -1,571 +1,580 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>Dilli-Portfolio</title>
-    <link href="assets/images/svg/logo1.svg" rel="icon" type="image/x-icon" />
-    <link href="assets/css/swap.css" rel="stylesheet" />
-    <link href="assets/css/fancybox.min.css" rel="stylesheet" />
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="assets/css/slick.css" rel="stylesheet" />
-    <link href="assets/css/magnific-popup.min.css" rel="stylesheet" />
-    <link href="assets/css/style.css" rel="stylesheet" />
-    <link href="assets/css/media_query.css" rel="stylesheet" />
-  </head>
-  <body class="dark-mode">
-    <!-- ====================================== Preloader ===================================== -->
-    <div class="preloader">
-      <svg preserveaspectratio="none" viewbox="0 0 1000 1000">
-        <path d="M0,1005S175,995,500,995s500,5,500,5V0H0Z" id="loade-svg"></path>
-      </svg>
-      <div class="loader-main">
-        <div class="loading">
-          <span data-text="L">L</span>
-          <span data-text="O">O</span>
-          <span data-text="A">A</span>
-          <span data-text="D">D</span>
-          <span data-text="I">I</span>
-          <span data-text="N">N</span>
-          <span data-text="G">G</span>
-        </div>
-      </div>
-    </div>
-    <!-- ====================================== Background Animation ===================================== -->
-    <canvas height="1080" id="canvas" width="1950"></canvas>
-    <canvas height="1080" id="canvasbg" width="1950"></canvas>
-    <!-- ====================================== Background Animation End ===================================== -->
-    <div class="site-containe">
-      <!-- ====================================== Header ===================================== -->
-      <div class="container" id="mainHeader">
-        <header>
-          <a class="main-header-logo" href="index.html">
-            <img alt="logo" class="logo" src="assets/images/home-images/logo-01 1.png" />
-          </a>
-          <div class="aryaBtn-toggle-main mt-0">
-            <ul class="side-menu-ul" id="menu-list-header">
-              <li class="menu-btn">
-                <a href="index.html">HOME</a>
-              </li>
-              <li class="menu-btn">
-                <a href="#about">ABOUT</a>
-              </li>
-              <li class="menu-btn">
-                <a href="#services">SERVICES</a>
-              </li>
-              <li class="menu-btn">
-                <a href="#portfolio">PORTFOLIO</a>
-              </li>
-              <li class="menu-btn">
-                <a href="#resume">RESUME</a>
-              </li>
-              <li class="menu-btn">
-                <a href="#top-skills">Top Skills</a>
-              </li>
-              <li class="menu-btn"> 
-                <a href="#design-skills">Design Skills</a>
-              </li>
-            </ul>
-            <button class="menu-toggle-button" id="menu-toggle">
-              <span class="hamburger" id="hamburger-1">
-                <span class="line"></span>
-                <span class="line"></span>
-                <span class="line"></span>
-              </span>
-            </button>
-          </div>
-        </header>
-      </div>
-      <!-- ====================================== Side Menu ===================================== -->
-      <div class="container">
-        <div class="row main-row">
-          <div class="col-xxl-3 col-xl-3 col-lg-4">
-            <div class="side-menu-main">
-              <a class="side-menu-two-logo" href="index.html">
-                <img alt="logo" class="logo" src="assets/images/home-images/logo-01 1.png" />
-              </a>
-              <div class="portfolio-girl-menu-main">
-                <img alt="portfolio-girl-menu" src="assets/images/home-images/left-1.png" />
-              </div>
-              <div class="list-menu">
-                <p class="side-menu-arya">Dilli Babu V</p>
-                <p class="web-arya">UIUX &amp; GRAPHIC DESIGNER</p>
-                <div class="media-main">
+	<head>
+		<meta charset="utf-8" />
+		<meta content="width=device-width, initial-scale=1.0" name="viewport" />
+		<title>Dilli-Portfolio</title>
+		<link href="assets/images/svg/logo1.svg" rel="icon" type="image/x-icon" />
+		<link href="assets/css/swap.css" rel="stylesheet" />
+		<link href="assets/css/fancybox.min.css" rel="stylesheet" />
+		<link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+		<link href="assets/css/slick.css" rel="stylesheet" />
+		<link href="assets/css/magnific-popup.min.css" rel="stylesheet" />
+		<link href="assets/css/style.css" rel="stylesheet" />
+		<link href="assets/css/media_query.css" rel="stylesheet" />
+	</head>
+	<body class="dark-mode">
+		<!-- ====================================== Preloader ===================================== -->
+		<div class="preloader">
+			<svg preserveaspectratio="none" viewbox="0 0 1000 1000">
+				<path d="M0,1005S175,995,500,995s500,5,500,5V0H0Z" id="loade-svg"></path>
+			</svg>
+			<div class="loader-main">
+				<div class="loading">
+					<span data-text="L">L</span>
+					<span data-text="O">O</span>
+					<span data-text="A">A</span>
+					<span data-text="D">D</span>
+					<span data-text="I">I</span>
+					<span data-text="N">N</span>
+					<span data-text="G">G</span>
+				</div>
+			</div>
+		</div>
+		<!-- ====================================== Background Animation ===================================== -->
+		<canvas height="1080" id="canvas" width="1950"></canvas>
+		<canvas height="1080" id="canvasbg" width="1950"></canvas>
+		<!-- ====================================== Background Animation End ===================================== -->
+		<div class="site-containe">
+			<!-- ====================================== Header ===================================== -->
+			<div class="container" id="mainHeader">
+				<header>
+					<a class="main-header-logo" href="index.html">
+						<img alt="logo" class="logo" src="assets/images/home-images/logo-01 1.png" />
+					</a>
+					<div class="aryaBtn-toggle-main mt-0">
+						<ul class="side-menu-ul" id="menu-list-header">
+							<li class="menu-btn">
+								<a href="index.html">HOME</a>
+							</li>
+							<li class="menu-btn">
+								<a href="#about">ABOUT</a>
+							</li>
+							<li class="menu-btn">
+								<a href="#services">SERVICES</a>
+							</li>
+							<li class="menu-btn">
+								<a href="#portfolio">PORTFOLIO</a>
+							</li>
+							<li class="menu-btn">
+								<a href="#resume">RESUME</a>
+							</li>
+							<li class="menu-btn">
+								<a href="#top-skills">Top Skills</a>
+							</li>
+							<li class="menu-btn">
+								<a href="#design-skills">Design Skills</a>
+							</li>
+						</ul>
+						<button class="menu-toggle-button" id="menu-toggle">
+							<span class="hamburger" id="hamburger-1">
+								<span class="line"></span>
+								<span class="line"></span>
+								<span class="line"></span>
+							</span>
+						</button>
+					</div>
+				</header>
+			</div>
+			<!-- ====================================== Side Menu ===================================== -->
+			<div class="container">
+				<div class="row main-row">
+					<div class="col-xxl-3 col-xl-3 col-lg-4">
+						<div class="side-menu-main">
+							<a class="side-menu-two-logo" href="index.html">
+								<img alt="logo" class="logo" src="assets/images/home-images/logo-01 1.png" />
+							</a>
+							<div class="portfolio-girl-menu-main">
+								<img alt="portfolio-girl-menu" src="assets/images/home-images/left-1.png" />
+							</div>
+							<div class="list-menu">
+								<p class="side-menu-arya">Dilli Babu V</p>
+								<p class="web-arya">UIUX &amp; GRAPHIC DESIGNER</p>
+								<div class="media-main">
+									<a class="media-icons" href="https://www.behance.net/Dilli_Babu">
+										<img alt="behance" src="assets/images/svg/behance.svg" />
+									</a>
+									<a class="media-icons" href="https://dribbble.com/Dilli_babu">
+										<img alt="dribbale" src="assets/images/svg/dribbale.svg" />
+									</a>
+									<a class="media-icons" href="https://www.linkedin.com/in/dillibabuv">
+										<img alt="linkdin" src="assets/images/svg/linkdin.svg" />
+									</a>
+								</div>
+							</div>
+							<div class="list-menu menu-list-main d-xl-none">
+								<ul class="side-menu-ul">
+									<li>
+										<a href="index.html">HOME <img alt="home" src="assets/images/svg/home.svg" />
+										</a>
+									</li>
+									<li>
+										<a href="#about">ABOUT ME <img alt="about" src="assets/images/svg/about.svg" />
+										</a>
+									</li>
+									<li>
+										<a href="#services">SERVICES <img alt="services" src="assets/images/svg/services.svg" />
+										</a>
+									</li>
+									<li>
+										<a href="#portfolio">PORTFOLIO <img alt="portfolio" src="assets/images/svg/portfolio.svg" />
+										</a>
+									</li>
+									<li>
+										<a href="#resume">RESUME <img alt="resume" src="assets/images/svg/resume.svg" />
+										</a>
+									</li>
+									<li>
+										<a href="#top-skills">TOP SKILLS <img alt="contact" src="assets/images/svg/contact.svg" />
+										</a>
+									</li>
+									<li>
+										<a href="#design-skills">DESIGN SKILLS <img alt="contact" src="assets/images/svg/contact.svg" />
+										</a>
+									</li>
+								</ul>
+							</div>
+							<div class="list-menu">
+								<p class="phone-text">PHONE:</p>
+								<a class="phone-num" href="../../../../../../../../+(91) 9786 274 976">
+									<p>+(91) 9786 274 976</p>
+								</a>
+								<p class="phone-text">EMAIL:</p>
+								<a class="phone-num" href="../../../../../../../../dillib440@gmail.com">
+									<p>dillib440@gmail.com</p>
+								</a>
+								<p class="phone-text">LOCATION:</p>
+								<p class="phone-num">Tamil Nadu, Chennai</p>
+								<div class="Hire-Me-side-menu">
+									<a class="aryaBtn" href="assets/pdf/Dilli-updated26.pdf"> Hire Me! <img alt="download-svg" class="hireMe-svg-side" src="assets/images/svg/hireMe-svg.svg" />
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-xxl-9 col-xl-9 col-lg-12" data-bs-spy="scroll">
+						<!-- ====================================== Section-One ===================================== -->
+						<section class="section-one active_menus" id="home">
+							<div class="row section-one-row">
+								<div class="col-xxl-6 col-xl-6 col-lg-6">
+									<p class="hi-there fade_down">Hi there! <span>👋</span>
+									</p>
+									<h1 class="creative fade_down">Creative UIUX &amp; Designer.</h1>
+									<h2 class="visionary fade_down">I am a visionary creative designer, known for my ability to turn concepts into captivating visual narratives. My deep passion for the world of design allows me to craft compelling stories through my artistic ingenuity.</h2>
+									<div class="download-btn">
+										<a class="aryaBtn" href="assets/pdf/Dilli-updated26.pdf"> Download CV <img alt="download-svg" src="assets/images/svg/download-svg.svg" />
+										</a>
+									</div>
+								</div>
+								<div class="col-xxl-6 col-xl-6 col-lg-6 portfolio-girl-img-col">
+									<div class="position-relative zoom_in">
+										<img alt="portfolio-girl" class="portfolio-girl-img" src="assets/images/home-images/right.png" />
+										<div class="girl-name">
+											<p class="ityped">I’M DILLI BABU V_</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+						<!-- ====================================== Section-Two ===================================== -->
+						<section class="section-two overflow-hidden active_menus" id="about">
+							<div class="row">
+								<div class="col-xxl-5 col-xl-5 col-lg-5 about-col">
+									<h2 class="arya-stack-about fade_down">
+										<span>I'm</span> DILLI BABU_
+									</h2>
+									<!-- <p class="WebExperts fade_down">Your Web Experts</p> -->
+									<div class="yer-exp-box-main">
+										<div class="yer-exp-box counter fade_down">
+											<p class="degit count" data-count="02">0</p>
+											<div>
+												<p>+</p>
+												<p>Years Of Exp.</p>
+											</div>
+										</div>
+										<div class="yer-exp-box counter fade_down">
+											<p class="degit count" data-count="26">0</p>
+											<div>
+												<p>K+</p>
+												<p>Work Hours</p>
+											</div>
+										</div>
+										<div class="yer-exp-box counter fade_down">
+											<p class="degit count" data-count="3">0</p>
+											<div>
+												<p>+</p>
+												<p>Projects Done</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-xxl-7 col-xl-7 col-lg-7 self-taught-col">
+									<h2 class="self-taught">Hello! <span>Hi, I’m Dilli Babu V — a self-taught UI/UX & Graphic Designer with over 2+ years of experience creating clean, user-friendly, and visually engaging digital experiences. </h2>
+									<h2 class="visionary">My journey started with passion and curiosity, and through continuous learning and real-world projects, I developed strong skills in UI/UX design, branding, and visual storytelling.</h2>
+									<div class="about-deatils-head fade_down">
+										<div class="about-detail-main">
+											<p class="about-detail">Name</p>
+											<p class="about-detail-info">Dilli Babu V</p>
+										</div>
+										<div class="about-detail-main">
+											<p class="about-detail">Nationality</p>
+											<p class="about-detail-info">Indian</p>
+										</div>
+										<div class="about-detail-main">
+											<p class="about-detail">Phone</p>
+											<p class="about-detail-info">+(91) 9786 274 976</p>
+										</div>
+										<div class="about-detail-main">
+											<p class="about-detail">Email</p>
+											<p class="about-detail-info">dillib440@gmail.com</p>
+										</div>
+										<div class="about-detail-main">
+											<p class="about-detail">Experience</p>
+											<p class="about-detail-info">2+ years</p>
+										</div>
+										<div class="about-detail-main">
+											<p class="about-detail">Language</p>
+											<p class="about-detail-info">English, Tamil, Telugu</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+						<!-- ====================================== Section-Three ===================================== -->
+						<section class="section-three active_menus" id="services">
+							<h3 class="creative brand fade_down">Helping Brands <span>achieve digital mastery of</span> Creative Innovation <span>and</span> Strategic Planning. </h3>
+							<h3 class="visionary fade_down">Transforming ideas into digital realities by blending strategic insights with innovative design, helping brands thrive in a rapidly evolving digital landscape.</h3>
+							<div class="services-box fade_down" id="services-box">
+								<div>
+									<img alt="web" class="services-icon" src="assets/images/svg/web.svg" />
+									<p class="web-dev-text">Mobile Applications &amp; Web Applications</p>
+								</div>
+								<p class="visionary">Designing intuitive mobile and web applications that combine creativity, usability, and seamless user experiences.</p>
+							</div>
+							<div class="services-box fade_down">
+								<div>
+									<img alt="UI-design" class="services-icon" src="assets/images/svg/UI-design.svg" />
+									<p class="web-dev-text">UI Design &amp; Experience</p>
+								</div>
+								<p class="visionary">Crafting modern and user-focused interfaces with clean visuals, smooth interactions,and seamless digital experiences.</p>
+							</div>
+							<div class="services-box fade_down">
+								<div>
+									<img alt="web" class="services-icon" src="assets/images/svg/digital.svg" />
+									<p class="web-dev-text">Web &amp; Social Digital Solution</p>
+								</div>
+								<p class="visionary">Creating impactful web and social media solutions that strengthen brand presence, engage audiences, and deliver meaningful digital experiences.</p>
+							</div>
+							<div class="services-box fade_down">
+								<div>
+									<img alt="branding" class="services-icon" src="assets/images/svg/branding.svg" />
+									<p class="web-dev-text">Branding &amp; Strategy</p>
+								</div>
+								<p class="visionary">Building strong brand identities and creative strategies that help businesses stand out, connect with audiences, and grow with a clear visual direction.</p>
+							</div>
+							<div class="services-box mb-0 fade_down">
+								<div>
+									<img alt="video" class="services-icon" src="assets/images/svg/video.svg" />
+									<p class="web-dev-text">Video &amp; Editing</p>
+								</div>
+								<p class="visionary">Creating engaging video edits with smooth transitions, creative storytelling, and visually appealing content that captures attention and enhances brand communication.</p>
+							</div>
+						</section>
+						<!-- ====================================== Section-Four ===================================== -->
+						<section class="section-four active_menus" id="portfolio">
+							<h2 class="creative fade_down">Projects</h2>
+							<h2 class="visionary fade_down pb-5">My step-by-step guide ensures a smooth project journey, from the initial consultation to the final delivery. I take care of every detail, allowing you to focus on what you do best.</h2>
+							<div class="tabContainer">
+								<div class="Tabcondent tab-active" id="one">
+									<div class="gallery">
+										<div class="gallery-item">
+											<div class="gallery-item-sub">
+												<a href="https://www.behance.net/gallery/230468767/Lets-Drive-Bike-Rental-App-UI">
+													<img alt="project-img1" src="assets/images/home-images/project-1.jpg" />
+												</a>
+											</div>
+											<div class="gallery-info">
+												<h3>DoctIq</h3>
+												<!-- <p>Content</p> -->
+											</div>
+										</div>
+										<div class="gallery-item">
+											<!-- data-bs-target="#galleryModal" data-bs-toggle="modal" -->
+											<div class="gallery-item-sub">
+												<a href="https://www.behance.net/gallery/235252121/Branding">
+													<img alt="project-img2.jpg" src="assets/images/home-images/project-2.jpg" />
+												</a>
+											</div>
+											<div class="gallery-info">
+												<h3>Branding</h3>
+												<!-- <p>Gallery</p> -->
+											</div>
+										</div>
+										<div class="gallery-item gallery-item3">
+											<div class="gallery-item-sub ">
+												<a href="https://www.behance.net/gallery/197894929/Organic-Glow-Organic-product-app-UX-case-study">
+													<img alt="project-img3.jpg" src="assets/images/home-images/project-3.jpg" />
+												</a>
+											</div>
+											<div class="gallery-info">
+												<h3>SVMedcity</h3>
+												<!-- <p>YT Video</p> -->
+											</div>
+										</div>
+										<div class="gallery-item">
+											<div class="gallery-item-sub ">
+												<a href="https://www.behance.net/gallery/235251297/E-Wallet-Design">
+													<img alt="project-img4.jpg" src="assets/images/home-images/project-4.jpg" />
+												</a>
+											</div>
+											<div class="gallery-info">
+												<h3></h3>
+												<!-- <p>Vimeo Video</p> -->
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+						<!-- ====================================== Section-Five ===================================== -->
+						<!-- ====================================== Section-Six ===================================== -->
+						<section class="section-six active_menus" id="resume">
+							<div class="row resume-sec-row">
+								<div class="col-xxl-6 col-lg-6">
+									<h2 class="creative brand fade_up">Education</h2>
+									<div class="education fade_up">
+										<div class="side_circle_ring">
+											<div class="small_yellow_border">
+												<div class="small_yellow_circle"></div>
+											</div>
+										</div>
+										<div class="small_yellow_border_main">
+											<p class="bachelor">Master's Degree</p>
+											<p class="cursus university">University of Madras / 2023 - 2025</p>
+											<p class="cursus">I have successfully completed my Postgraduate degree with 79%, reflecting strong academic commitment and performance. </p>
+										</div>
+									</div>
+									<div class="education position-relative fade_up">
+										<div class="side_circle_ring">
+											<div class="small_yellow_border">
+												<div class="small_yellow_circle"></div>
+											</div>
+										</div>
+										<div class="small_yellow_border_main">
+											<p class="bachelor">Bachelor in Science</p>
+											<p class="cursus university">University of Madras / 2019 - 2022</p>
+											<p class="cursus">I have successfully completed my undergraduate degree with 75% marks, demonstrating strong academic dedication and consistency. </p>
+										</div>
+									</div>
+									<div class="education position-relative fade_up">
+										<div class="side_circle_ring">
+											<div class="small_yellow_border">
+												<div class="small_yellow_circle"></div>
+											</div>
+										</div>
+										<div class="small_yellow_border_main">
+											<p class="bachelor">HSC</p>
+											<p class="cursus university">State Board / 2018 - 2019</p>
+											<p class="cursus">I completed my Higher Secondary Schooling with 69%, building a solid foundation for my academic journey. </p>
+										</div>
+									</div>
+								</div>
+								<div class="col-xxl-6 col-lg-6">
+									<h2 class="creative brand fade_up">Experience.</h2>
+									<div class="education fade_up">
+										<div class="side_circle_ring">
+											<div class="small_yellow_border">
+												<div class="small_yellow_circle"></div>
+											</div>
+										</div>
+										<div class="small_yellow_border_main">
+											<p class="bachelor">SV Medcity</p>
+											<p class="cursus university">Sep, 2025 - Present</p>
+											<p class="cursus">
+												<span style="font-weight:900; color:white;">SV Medcity</span> - Designed a user-friendly hospital website/app for easy navigation. Focused on simple appointment booking and patient information access. Improved UI layout for doctors, students, and patients. Ensured accessibility with clear fonts, colors, and icons. Enhanced overall user experience through clean and responsive design.
+											</p>
+										</div>
+									</div>
+									<div class="education position-relative fade_up">
+										<div class="side_circle_ring">
+											<div class="small_yellow_border">
+												<div class="small_yellow_circle"></div>
+											</div>
+										</div>
+										<div class="small_yellow_border_main">
+											<p class="bachelor">DoctIq</p>
+											<p class="cursus university">Freelance(2026)</p>
+											<p class="cursus mb-2">
+												<span style="font-weight:900; color:white;">DoctIq</span> is an AI-powered Healthcare SaaS platform that helps doctors and hospitals automate clinical documentation, patient communication, and practice management through intelligent, cloud-based solutions.
+											</p>
+										</div>
+									</div>
                   
-                  <a class="media-icons" href="https://www.behance.net/Dilli_Babu">
-                    <img alt="behance" src="assets/images/svg/behance.svg" />
-                  </a>
-                  <a class="media-icons" href="https://dribbble.com/Dilli_babu">
-                    <img alt="dribbale" src="assets/images/svg/dribbale.svg" />
-                  </a>
-                  <a class="media-icons" href="https://www.linkedin.com/in/dillibabuv" >
-                    <img alt="linkdin" src="assets/images/svg/linkdin.svg" />
-                  </a>
-                </div>
-              </div>
-              <div class="list-menu menu-list-main d-xl-none">
-                <ul class="side-menu-ul">
-                  <li>
-                    <a href="index.html">HOME <img alt="home" src="assets/images/svg/home.svg" />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#about">ABOUT ME <img alt="about" src="assets/images/svg/about.svg" />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#services">SERVICES <img alt="services" src="assets/images/svg/services.svg" />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#portfolio">PORTFOLIO <img alt="portfolio" src="assets/images/svg/portfolio.svg" />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#resume">RESUME <img alt="resume" src="assets/images/svg/resume.svg" />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#top-skills">TOP SKILLS <img alt="contact" src="assets/images/svg/contact.svg" />
-                    </a>
-                  </li>
-                      <li>
-                    <a href="#design-skills">DESIGN SKILLS <img alt="contact" src="assets/images/svg/contact.svg" />
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <div class="list-menu">
-                <p class="phone-text">PHONE:</p>
-                <a class="phone-num" href="../../../../../../../../+(91) 9786 274 976">
-                  <p>+(91) 9786 274 976</p>
-                </a>
-                <p class="phone-text">EMAIL:</p>
-                <a class="phone-num" href="../../../../../../../../dillib440@gmail.com">
-                  <p>dillib440@gmail.com</p>
-                </a>
-                <p class="phone-text">LOCATION:</p>
-                <p class="phone-num">Tamil Nadu, Chennai</p>
-                <div class="Hire-Me-side-menu">
-                  <a class="aryaBtn" href="assets/pdf/Dilli-updated26.pdf"> Hire Me! <img alt="download-svg" class="hireMe-svg-side" src="assets/images/svg/hireMe-svg.svg" />
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-xxl-9 col-xl-9 col-lg-12" data-bs-spy="scroll">
-            <!-- ====================================== Section-One ===================================== -->
-            <section class="section-one active_menus" id="home">
-              <div class="row section-one-row">
-                <div class="col-xxl-6 col-xl-6 col-lg-6">
-                  <p class="hi-there fade_down">Hi there! <span>👋</span>
-                  </p>
-                  <h1 class="creative fade_down">Creative UIUX &amp; Designer.</h1>
-                  <h2 class="visionary fade_down">I am a visionary creative designer, known for my ability to turn concepts into captivating visual narratives. My deep passion for the world of design allows me to craft compelling stories through my artistic ingenuity.</h2>
-                  <div class="download-btn">
-                    <a class="aryaBtn" href="assets/pdf/Dilli-updated26.pdf"> Download CV <img alt="download-svg" src="assets/images/svg/download-svg.svg" />
-                    </a>
-                  </div>
-                </div>
-                <div class="col-xxl-6 col-xl-6 col-lg-6 portfolio-girl-img-col">
-                  <div class="position-relative zoom_in">
-                    <img alt="portfolio-girl" class="portfolio-girl-img" src="assets/images/home-images/right.png" />
-                    <div class="girl-name">
-                      <p class="ityped">I’M DILLI BABU V_</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </section>
-            <!-- ====================================== Section-Two ===================================== -->
-            <section class="section-two overflow-hidden active_menus" id="about">
-              <div class="row">
-                <div class="col-xxl-5 col-xl-5 col-lg-5 about-col">
-                  <h2 class="arya-stack-about fade_down">
-                    <span>I'm</span> DILLI BABU_
-                  </h2>
-                  <!-- <p class="WebExperts fade_down">Your Web Experts</p> -->
-                  <div class="yer-exp-box-main">
-                    <div class="yer-exp-box counter fade_down">
-                      <p class="degit count" data-count="02">0</p>
-                      <div>
-                        <p>+</p>
-                        <p>Years Of Exp.</p>
-                      </div>
-                    </div>
-                    <div class="yer-exp-box counter fade_down">
-                      <p class="degit count" data-count="26">0</p>
-                      <div>
-                        <p>K+</p>
-                        <p>Work Hours</p>
-                      </div>
-                    </div>
-                    <div class="yer-exp-box counter fade_down">
-                      <p class="degit count" data-count="3">0</p>
-                      <div>
-                        <p>+</p>
-                        <p>Projects Done</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-xxl-7 col-xl-7 col-lg-7 self-taught-col">
-                  <h2 class="self-taught">Hello! <span>Hi, I’m Dilli Babu V — a self-taught UI/UX & Graphic Designer with over 2+ years of experience creating clean, user-friendly, and visually engaging digital experiences.</h2>
-                  <h2 class="visionary">My journey started with passion and curiosity, and through continuous learning and real-world projects, I developed strong skills in UI/UX design, branding, and visual storytelling.</h2>
-                  <div class="about-deatils-head fade_down">
-                    <div class="about-detail-main">
-                      <p class="about-detail">Name</p>
-                      <p class="about-detail-info">Dilli Babu V</p>
-                    </div>
-                    <div class="about-detail-main">
-                      <p class="about-detail">Nationality</p>
-                      <p class="about-detail-info">Indian</p>
-                    </div>
-                    <div class="about-detail-main">
-                      <p class="about-detail">Phone</p>
-                      <p class="about-detail-info">+(91) 9786 274 976</p>
-                    </div>
-                    <div class="about-detail-main">
-                      <p class="about-detail">Email</p>
-                      <p class="about-detail-info">dillib440@gmail.com</p>
-                    </div>
-                    <div class="about-detail-main">
-                      <p class="about-detail">Experience</p>
-                      <p class="about-detail-info">2+ years</p>
-                    </div>
-                    <div class="about-detail-main">
-                      <p class="about-detail">Language</p>
-                      <p class="about-detail-info">English, Tamil, Telugu</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </section>
-            <!-- ====================================== Section-Three ===================================== -->
-            <section class="section-three active_menus" id="services">
-              <h3 class="creative brand fade_down">Helping Brands <span>achieve digital mastery of</span> Creative Innovation <span>and</span> Strategic Planning. </h3>
-              <h3 class="visionary fade_down">Transforming ideas into digital realities by blending strategic insights with innovative design, helping brands thrive in a rapidly evolving digital landscape.</h3>
-              <div class="services-box fade_down" id="services-box">
-                <div>
-                  <img alt="web" class="services-icon" src="assets/images/svg/web.svg" />
-                  <p class="web-dev-text">Mobile Applications &amp; Web Applications</p>
-                </div>
-                <p class="visionary">Designing intuitive mobile and web applications that combine creativity, usability, and seamless user experiences.</p>
-              </div>
-              <div class="services-box fade_down">
-                <div>
-                  <img alt="UI-design" class="services-icon" src="assets/images/svg/UI-design.svg" />
-                  <p class="web-dev-text">UI Design &amp; Experience</p>
-                </div>
-                <p class="visionary">Crafting modern and user-focused interfaces with clean visuals, smooth interactions,and seamless digital experiences.</p>
-              </div>
-              <div class="services-box fade_down">
-                <div>
-                  <img alt="web" class="services-icon" src="assets/images/svg/digital.svg" />
-                  <p class="web-dev-text">Web &amp; Social Digital Solution</p>
-                </div>
-                <p class="visionary">Creating impactful web and social media solutions that strengthen brand presence, engage audiences, and deliver meaningful digital experiences.</p>
-              </div>
-              <div class="services-box fade_down">
-                <div>
-                  <img alt="branding" class="services-icon" src="assets/images/svg/branding.svg" />
-                  <p class="web-dev-text">Branding &amp; Strategy</p>
-                </div>
-                <p class="visionary">Building strong brand identities and creative strategies that help businesses stand out, connect with audiences, and grow with a clear visual direction.</p>
-              </div>
-              <div class="services-box mb-0 fade_down">
-                <div>
-                  <img alt="video" class="services-icon" src="assets/images/svg/video.svg" />
-                  <p class="web-dev-text">Video &amp; Editing</p>
-                </div>
-                <p class="visionary">Creating engaging video edits with smooth transitions, creative storytelling, and visually appealing content that captures attention and enhances brand communication.</p>
-              </div>
-            </section>
-            <!-- ====================================== Section-Four ===================================== -->
-            <section class="section-four active_menus" id="portfolio">
-              <h2 class="creative fade_down">Projects</h2>
-              <h2 class="visionary fade_down pb-5">My step-by-step guide ensures a smooth project journey, from the initial consultation to the final delivery. I take care of every detail, allowing you to focus on what you do best.</h2>
-              <div class="tabContainer">
-                <div class="Tabcondent tab-active" id="one">
-                  <div class="gallery">
-                    <div class="gallery-item">
-                      <div class="gallery-item-sub"  >
-                        <a href="https://www.behance.net/gallery/230468767/Lets-Drive-Bike-Rental-App-UI"><img alt="project-img1" src="assets/images/home-images/project-1.jpg" /></a>
-                      </div>
-                      <div class="gallery-info">
-                        <h3>DoctIq</h3>
-                        <!-- <p>Content</p> -->
-                      </div>
-                    </div>
-                    <div class="gallery-item">
-                      <!-- data-bs-target="#galleryModal" data-bs-toggle="modal" -->
-                      <div class="gallery-item-sub" >
-                        <a href="https://www.behance.net/gallery/235252121/Branding"><img alt="project-img2.jpg" src="assets/images/home-images/project-2.jpg" /></a>
-                      </div>
-                      <div class="gallery-info">
-                        <h3>Branding</h3>
-                        <!-- <p>Gallery</p> -->
-                      </div>
-                    </div>
-                    <div class="gallery-item gallery-item3">
-                      <div class="gallery-item-sub ">
-                        <a href="https://www.behance.net/gallery/197894929/Organic-Glow-Organic-product-app-UX-case-study"><img alt="project-img3.jpg" src="assets/images/home-images/project-3.jpg" /></a>
-                      </div>
-                      <div class="gallery-info">
-                        <h3>SVMedcity</h3>
-                        <!-- <p>YT Video</p> -->
-                      </div>
-                    </div>
-                    <div class="gallery-item">
-                      <div class="gallery-item-sub ">
-                        <a href="https://www.behance.net/gallery/235251297/E-Wallet-Design"><img alt="project-img4.jpg" src="assets/images/home-images/project-4.jpg" /></a>
-                      </div>
-                      <div class="gallery-info">
-                        <h3></h3>
-                        <!-- <p>Vimeo Video</p> -->
-                      </div>
-                    </div>
-                  </div>
-                </div>
-               
-              </div>
-            </section>
-            <!-- ====================================== Section-Five ===================================== -->
-           
-            <!-- ====================================== Section-Six ===================================== -->
-            <section class="section-six active_menus" id="resume">
-              <div class="row resume-sec-row">
-                <div class="col-xxl-6 col-lg-6">
-                  <h2 class="creative brand fade_up">Education</h2>
-                  <div class="education fade_up">
-                    <div class="side_circle_ring">
-                      <div class="small_yellow_border">
-                        <div class="small_yellow_circle"></div>
-                      </div>
-                    </div>
-                    <div class="small_yellow_border_main">
-                      <p class="bachelor">Master's Degree</p>
-                      <p class="cursus university">University of Madras / 2023 - 2025</p>
-                      <p class="cursus">I have successfully completed my Postgraduate degree with 79%, reflecting strong academic commitment and performance. </p>
-                    </div>
-                  </div>
-                  <div class="education position-relative fade_up">
-                    <div class="side_circle_ring">
-                      <div class="small_yellow_border">
-                        <div class="small_yellow_circle"></div>
-                      </div>
-                    </div>
-                    <div class="small_yellow_border_main">
-                      <p class="bachelor">Bachelor in Science</p>
-                      <p class="cursus university">University of Madras / 2019 - 2022</p>
-                      <p class="cursus">I have successfully completed my undergraduate degree with 75% marks, demonstrating strong academic dedication and consistency. </p>
-                    </div>
-                  </div>
-                  <div class="education position-relative fade_up">
-                    <div class="side_circle_ring">
-                      <div class="small_yellow_border">
-                        <div class="small_yellow_circle"></div>
-                      </div>
-                    </div>
-                    <div class="small_yellow_border_main">
-                      <p class="bachelor">HSC</p>
-                      <p class="cursus university">State Board / 2018 - 2019</p>
-                      <p class="cursus">I completed my Higher Secondary Schooling with 69%, building a solid foundation for my academic journey. </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-xxl-6 col-lg-6">
-                  <h2 class="creative brand fade_up">Experience.</h2>
-                  <div class="education fade_up">
-                    <div class="side_circle_ring">
-                      <div class="small_yellow_border">
-                        <div class="small_yellow_circle"></div>
-                      </div>
-                    </div>
-                    <div class="small_yellow_border_main">
-                      <p class="bachelor">SV Medcity</p>
-                      <p class="cursus university">Sep, 2025 - Present</p>
-                      <p class="cursus"><span style="font-weight:900; color:white;">SV Medcity</span> - Designed a user-friendly hospital website/app for easy navigation. Focused on simple appointment booking and patient information access. Improved UI layout for doctors, students, and patients. Ensured accessibility with clear fonts, colors, and icons. Enhanced overall user experience through clean and responsive design. </p>
-                    </div>
-                  </div>
-                  <div class="education position-relative fade_up">
-                    <div class="side_circle_ring">
-                      <div class="small_yellow_border">
-                        <div class="small_yellow_circle"></div>
-                      </div>
-                    </div>
-                    <div class="small_yellow_border_main">
-                      <p class="bachelor">DoctIq</p>
-                      <p class="cursus university">Freelance(2026)</p>
-                      <p class="cursus mb-2"> <span style="font-weight:900; color:white;">DoctIq</span> is an AI-powered Healthcare SaaS platform that helps doctors and hospitals automate clinical documentation, patient communication, and practice management through intelligent, cloud-based solutions. </p>
-                    </div>
-                    <div class="education position-relative fade_up">
-                    <div class="side_circle_ring">
-                      <div class="small_yellow_border">
-                        <div class="small_yellow_circle"></div>
-                      </div>
-                    </div>
-                    <div class="small_yellow_border_main">
-                      <p class="bachelor">Zukun LLP</p>
-                      <p class="cursus university">Mar, 2024 / Aug, 2025</p>
-                      <p class="cursus mb-2"> <span style="font-weight:900; color:white;">Zeneazy</span> is a Study & Work Abroad platform that simplifies university, job, passport, and visa applications through a user-friendly interface. It also includes an integrated coaching and scheduling system for seamless guidance and support. </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="coding-skill-section" id="top-skills">
-                <h2 class="creative brand pb-0 fade_down">Top <span>Skills</span>
-                </h2>
-                <div id="progress">
-                  <div class="progress-item fade_down" data-skill="Figma" data-value="98"></div>
-                  <div class="progress-item fade_down" data-skill="Photoshop" data-value="85"></div>
-                  <div class="progress-item fade_down" data-skill="Illustrator" data-value="95"></div>
-                  <div class="progress-item fade_down" data-skill="Balsamiq" data-value="97"></div>
-                  <div class="progress-item fade_down" data-skill="Miro" data-value="85"></div>
-                </div>
-              </div>
-              <div class="coding-skill-section" id="design-skills">
-                <h2 class="creative brand pb-0 fade_down">Design <span>Skills</span>
-                </h2>
-                <div class="design-skill-sub-section">
-                  <div class="design-skills-img-main flip_up show">
-                    <!-- <img alt="figma-img" src="assets/images/home-images/figma-img.png" /> -->
-                    <div class="skill-counter-main">
-                      <p>WIREFRAME</p>
-                      <!-- <p>HTML, CSS</p> -->
-                    </div>
-                  </div>
-                  <div class="design-skills-img-main photoshop flip_up show">
-                    <!-- <img alt="photoshop-img" src="assets/images/home-images/photoshop-img.png" /> -->
-                    <div class="skill-counter-main photoshop-text">
-                      <p>PROTOTYPE</p>
-                      <!-- <p>PHOTOSHOP</p> -->
-                    </div>
-                  </div>
-                  <div class="design-skills-img-main adobe-xd flip_up show">
-                    <!-- <img alt="adobe-xd-img" src="assets/images/home-images/adobe-xd-img.png" /> -->
-                    <div class="skill-counter-main adobe-xd-text">
-                      <p>VISUAL DESIGN</p>
-                      <!-- <p>ADOBE XD</p> -->
-                    </div>
-                  </div>
-                  <div class="design-skills-img-main sketch flip_up show">
-                    <!-- <img alt="sktech-img" src="assets/images/home-images/sktech-img.png" /> -->
-                    <div class="skill-counter-main sketch-text">
-                      <p>TYPOGRAPHY</p>
-                      <!-- <p>SKETCH</p> -->
-                    </div>
-                  </div>
-                  <div class="design-skills-img-main flip_up show">
-                    <!-- <img alt="sktech-img" src="assets/images/home-images/sktech-img.png" /> -->
-                    <div class="skill-counter-main">
-                      <p>COLOR THEORY</p>
-                      <!-- <p>SKETCH</p> -->
-                    </div>
-                  </div>
-                  <div class="design-skills-img-main  photoshop flip_up show">
-                    <!-- <img alt="sktech-img" src="assets/images/home-images/sktech-img.png" /> -->
-                    <div class="skill-counter-main photoshop-text">
-                      <p>RESPONSIVE</p>
-                      <!-- <p>SKETCH</p> -->
-                    </div>
-                  </div>
-                  <div class="design-skills-img-main adobe-xd flip_up show">
-                    <!-- <img alt="sktech-img" src="assets/images/home-images/sktech-img.png" /> -->
-                    <div class="skill-counter-main adobe-xd-text">
-                      <p>STYLE GUIDE</p>
-                      <!-- <p>SKETCH</p> -->
-                    </div>
-                  </div>
-                  <div class="design-skills-img-main sketch flip_up show">
-                    <!-- <img alt="sktech-img" src="assets/images/home-images/sktech-img.png" /> -->
-                    <div class="skill-counter-main sketch-text">
-                      <p>USER RESEARCH</p>
-                      <!-- <p>SKETCH</p> -->
-                    </div>
-                  </div>
-                  <div class="design-skills-img-main flip_up show">
-                    <!-- <img alt="sktech-img" src="assets/images/home-images/sktech-img.png" /> -->
-                    <div class="skill-counter-main sketch-text">
-                      <p>USER PERSONA</p>
-                      <!-- <p>SKETCH</p> -->
-                    </div>
-                  </div>
-                  <div class="design-skills-img-main photoshop flip_up show">
-                    <!-- <img alt="sktech-img" src="assets/images/home-images/sktech-img.png" /> -->
-                    <div class="skill-counter-main photoshop-text">
-                      <p>INFORMATION ARCHITECTURE</p>
-                      <!-- <p>SKETCH</p> -->
-                    </div>
-                  </div>
-                  <div class="design-skills-img-main adobe-xd flip_up show">
-                    <!-- <img alt="sktech-img" src="assets/images/home-images/sktech-img.png" /> -->
-                    <div class="skill-counter-main adobe-xd-text">
-                      <p>USABILITY TESTING</p>
-                      <!-- <p>SKETCH</p> -->
-                    </div>
-                  </div>
-                  <div class="design-skills-img-main sketch flip_up show">
-                    <!-- <img alt="sktech-img" src="assets/images/home-images/sktech-img.png" /> -->
-                    <div class="skill-counter-main sketch-text">
-                      <p>AB TESTING</p>
-                      <!-- <p>SKETCH</p> -->
-                    </div>
-                  </div>
-                  <div class="design-skills-img-main flip_up show">
-                    <!-- <img alt="figma-img" src="assets/images/home-images/figma-img.png" /> -->
-                    <div class="skill-counter-main">
-                      <p>HEURISTIC EVALUATION</p>
-                      <!-- <p>HTML, CSS</p> -->
-                    </div>
-                  </div>
-                  <div class="design-skills-img-main photoshop flip_up show">
-                    <!-- <img alt="photoshop-img" src="assets/images/home-images/photoshop-img.png" /> -->
-                    <div class="skill-counter-main photoshop-text">
-                      <p>TASK FLOW</p>
-                      <!-- <p>PHOTOSHOP</p> -->
-                    </div>
-                  </div>
-                  <div class="design-skills-img-main adobe-xd flip_up show">
-                    <!-- <img alt="adobe-xd-img" src="assets/images/home-images/adobe-xd-img.png" /> -->
-                    <div class="skill-counter-main adobe-xd-text">
-                      <p>USER FLOW</p>
-                      <!-- <p>ADOBE XD</p> -->
-                    </div>
-                  </div>
-                  <div class="design-skills-img-main sketch flip_up show">
-                    <!-- <img alt="sktech-img" src="assets/images/home-images/sktech-img.png" /> -->
-                    <div class="skill-counter-main sketch-text">
-                      <p>CARD SORTING</p>
-                      <!-- <p>SKETCH</p> -->
-                    </div>
-                  </div>
-                </div>
-              </div>
-             
-            </section>
-            <!-- ====================================== Section Seven ===================================== -->
-            
-            <!-- ====================================== Footer ===================================== -->
-            
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- ====================================== Bottom To Top Button ===================================== -->
-    <button class="bottom-top-button">
-      <img alt="arrow-up" src="assets/images/svg/arrow-up.svg" />
-    </button>
-    <!-- ====================================== Bottom To Top Button End ===================================== -->
-    <script src="assets/javascript/jquery.min.js"></script>
-    <script src="assets/javascript/gsap.js"></script>
-    <script src="assets/javascript/bootstrap.min.js"></script>
-    <script src="assets/javascript/magnific-popup.min.js"></script>
-    <script src="assets/javascript/fancybox.min.js"></script>
-    <script src="assets/javascript/typing.js"></script>
-    <script src="assets/javascript/smooth-scroll.js"></script>
-    <script src="assets/javascript/slick.min.js"></script>
-    <script src="assets/javascript/bg-animation/circle.js"></script>
-    <script src="assets/javascript/script.js"></script>
-  </body>
+										<div class="education position-relative fade_up">
+											<div class="side_circle_ring">
+												<div class="small_yellow_border">
+													<div class="small_yellow_circle"></div>
+												</div>
+											</div>
+											<div class="small_yellow_border_main">
+												<p class="bachelor">Zukun LLP</p>
+												<p class="cursus university">Mar, 2024 / Aug, 2025</p>
+												<p class="cursus mb-2">
+													<span style="font-weight:900; color:white;">Zeneazy</span> is a Study & Work Abroad platform that simplifies university, job, passport, and visa applications through a user-friendly interface. It also includes an integrated coaching and scheduling system for seamless guidance and support.
+												</p>
+											</div>
+										</div>
+								</div>
+								<div class="coding-skill-section" id="top-skills">
+									<h2 class="creative brand pb-0 fade_down">Top <span>Skills</span>
+									</h2>
+									<div id="progress">
+										<div class="progress-item fade_down" data-skill="Figma" data-value="98"></div>
+										<div class="progress-item fade_down" data-skill="Photoshop" data-value="85"></div>
+										<div class="progress-item fade_down" data-skill="Illustrator" data-value="95"></div>
+										<div class="progress-item fade_down" data-skill="Balsamiq" data-value="97"></div>
+										<div class="progress-item fade_down" data-skill="Miro" data-value="85"></div>
+									</div>
+								</div>
+								<div class="coding-skill-section" id="design-skills">
+									<h2 class="creative brand pb-0 fade_down">Design <span>Skills</span>
+									</h2>
+									<div class="design-skill-sub-section">
+										<div class="design-skills-img-main flip_up show">
+											<!-- <img alt="figma-img" src="assets/images/home-images/figma-img.png" /> -->
+											<div class="skill-counter-main">
+												<p>WIREFRAME</p>
+												<!-- <p>HTML, CSS</p> -->
+											</div>
+										</div>
+										<div class="design-skills-img-main photoshop flip_up show">
+											<!-- <img alt="photoshop-img" src="assets/images/home-images/photoshop-img.png" /> -->
+											<div class="skill-counter-main photoshop-text">
+												<p>PROTOTYPE</p>
+												<!-- <p>PHOTOSHOP</p> -->
+											</div>
+										</div>
+										<div class="design-skills-img-main adobe-xd flip_up show">
+											<!-- <img alt="adobe-xd-img" src="assets/images/home-images/adobe-xd-img.png" /> -->
+											<div class="skill-counter-main adobe-xd-text">
+												<p>VISUAL DESIGN</p>
+												<!-- <p>ADOBE XD</p> -->
+											</div>
+										</div>
+										<div class="design-skills-img-main sketch flip_up show">
+											<!-- <img alt="sktech-img" src="assets/images/home-images/sktech-img.png" /> -->
+											<div class="skill-counter-main sketch-text">
+												<p>TYPOGRAPHY</p>
+												<!-- <p>SKETCH</p> -->
+											</div>
+										</div>
+										<div class="design-skills-img-main flip_up show">
+											<!-- <img alt="sktech-img" src="assets/images/home-images/sktech-img.png" /> -->
+											<div class="skill-counter-main">
+												<p>COLOR THEORY</p>
+												<!-- <p>SKETCH</p> -->
+											</div>
+										</div>
+										<div class="design-skills-img-main  photoshop flip_up show">
+											<!-- <img alt="sktech-img" src="assets/images/home-images/sktech-img.png" /> -->
+											<div class="skill-counter-main photoshop-text">
+												<p>RESPONSIVE</p>
+												<!-- <p>SKETCH</p> -->
+											</div>
+										</div>
+										<div class="design-skills-img-main adobe-xd flip_up show">
+											<!-- <img alt="sktech-img" src="assets/images/home-images/sktech-img.png" /> -->
+											<div class="skill-counter-main adobe-xd-text">
+												<p>STYLE GUIDE</p>
+												<!-- <p>SKETCH</p> -->
+											</div>
+										</div>
+										<div class="design-skills-img-main sketch flip_up show">
+											<!-- <img alt="sktech-img" src="assets/images/home-images/sktech-img.png" /> -->
+											<div class="skill-counter-main sketch-text">
+												<p>USER RESEARCH</p>
+												<!-- <p>SKETCH</p> -->
+											</div>
+										</div>
+										<div class="design-skills-img-main flip_up show">
+											<!-- <img alt="sktech-img" src="assets/images/home-images/sktech-img.png" /> -->
+											<div class="skill-counter-main sketch-text">
+												<p>USER PERSONA</p>
+												<!-- <p>SKETCH</p> -->
+											</div>
+										</div>
+										<div class="design-skills-img-main photoshop flip_up show">
+											<!-- <img alt="sktech-img" src="assets/images/home-images/sktech-img.png" /> -->
+											<div class="skill-counter-main photoshop-text">
+												<p>INFORMATION ARCHITECTURE</p>
+												<!-- <p>SKETCH</p> -->
+											</div>
+										</div>
+										<div class="design-skills-img-main adobe-xd flip_up show">
+											<!-- <img alt="sktech-img" src="assets/images/home-images/sktech-img.png" /> -->
+											<div class="skill-counter-main adobe-xd-text">
+												<p>USABILITY TESTING</p>
+												<!-- <p>SKETCH</p> -->
+											</div>
+										</div>
+										<div class="design-skills-img-main sketch flip_up show">
+											<!-- <img alt="sktech-img" src="assets/images/home-images/sktech-img.png" /> -->
+											<div class="skill-counter-main sketch-text">
+												<p>AB TESTING</p>
+												<!-- <p>SKETCH</p> -->
+											</div>
+										</div>
+										<div class="design-skills-img-main flip_up show">
+											<!-- <img alt="figma-img" src="assets/images/home-images/figma-img.png" /> -->
+											<div class="skill-counter-main">
+												<p>HEURISTIC EVALUATION</p>
+												<!-- <p>HTML, CSS</p> -->
+											</div>
+										</div>
+										<div class="design-skills-img-main photoshop flip_up show">
+											<!-- <img alt="photoshop-img" src="assets/images/home-images/photoshop-img.png" /> -->
+											<div class="skill-counter-main photoshop-text">
+												<p>TASK FLOW</p>
+												<!-- <p>PHOTOSHOP</p> -->
+											</div>
+										</div>
+										<div class="design-skills-img-main adobe-xd flip_up show">
+											<!-- <img alt="adobe-xd-img" src="assets/images/home-images/adobe-xd-img.png" /> -->
+											<div class="skill-counter-main adobe-xd-text">
+												<p>USER FLOW</p>
+												<!-- <p>ADOBE XD</p> -->
+											</div>
+										</div>
+										<div class="design-skills-img-main sketch flip_up show">
+											<!-- <img alt="sktech-img" src="assets/images/home-images/sktech-img.png" /> -->
+											<div class="skill-counter-main sketch-text">
+												<p>CARD SORTING</p>
+												<!-- <p>SKETCH</p> -->
+											</div>
+										</div>
+									</div>
+								</div>
+						</section>
+						<!-- ====================================== Section Seven ===================================== -->
+						<!-- ====================================== Footer ===================================== -->
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- ====================================== Bottom To Top Button ===================================== -->
+		<button class="bottom-top-button">
+			<img alt="arrow-up" src="assets/images/svg/arrow-up.svg" />
+		</button>
+		<!-- ====================================== Bottom To Top Button End ===================================== -->
+		<script src="assets/javascript/jquery.min.js"></script>
+		<script src="assets/javascript/gsap.js"></script>
+		<script src="assets/javascript/bootstrap.min.js"></script>
+		<script src="assets/javascript/magnific-popup.min.js"></script>
+		<script src="assets/javascript/fancybox.min.js"></script>
+		<script src="assets/javascript/typing.js"></script>
+		<script src="assets/javascript/smooth-scroll.js"></script>
+		<script src="assets/javascript/slick.min.js"></script>
+		<script src="assets/javascript/bg-animation/circle.js"></script>
+		<script src="assets/javascript/script.js"></script>
+	</body>
 </html>
